@@ -22,9 +22,9 @@ import { saveAs } from 'file-saver';
 import JsZip from 'jszip';
 import type { FormInstance, FormRules } from 'element-plus';
 
-const htmlUrl: string = "https://raw.githubusercontent.com/whutpsychic/rtlink-production-line/main/publishedPages/scan2download/index.html";
-const jsUrl: string = "https://raw.githubusercontent.com/whutpsychic/rtlink-production-line/main/publishedPages/scan2download/assets/index.js";
-const cssUrl: string = "https://raw.githubusercontent.com/whutpsychic/rtlink-production-line/main/publishedPages/scan2download/assets/index.css";
+const htmlUrl: string = "https://gitee.com/whutpsychic/rtlink-production-line/raw/main/publishedPages/scan2download/index.html";
+const jsUrl: string = "https://gitee.com/whutpsychic/rtlink-production-line/raw/main/publishedPages/scan2download/assets/index.js";
+const cssUrl: string = "https://gitee.com/whutpsychic/rtlink-production-line/raw/main/publishedPages/scan2download/assets/index.css";
 
 const nameKey: string = 'rtqrapp_input_key_appname';
 const urlKey: string = 'rtqrapp_input_key_download_url';
